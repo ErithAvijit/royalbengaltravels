@@ -1,0 +1,137 @@
+/*-------NAVBAR AND FRONT BACKGROUND------->*/
+
+
+.heardrset h2{
+
+
+	padding-top: 250px;
+
+	box-sizing: border-box;
+}
+
+.heardrset h2{
+	font-size: 42px;
+}
+
+.heardrset h1{
+	font-size: 82px;
+	font-weight: bold;
+}
+
+/*-----  END--NAVBAR AND FRONT BACKGROUND------->*/
+
+
+
+
+/*<--------OUR SERVICES------->*/
+
+
+.ourservices{
+	padding: 100px 0px 0px;
+	height: 700px;
+}
+
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.imgsetting{
+	margin: 80px 0px !important;
+}
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+.fa-cart-arrow-down{
+	margin-top: 20px;
+}
+
+
+.fa-desktop{
+	margin-top: 20px;
+}
+
+.fa-lock{
+	margin-top: 20px;
+}
+
+
+
+/*<---------OUR PLACES--------->*/
+
+
+.Places{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 0px;
+}
+.Places h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.card{
+	margin-top: 40px;
+}
+
+/*
+<--------OUR TEAM------>*/
+
+
+/*.ourteam{
+	height: 700px;
+	padding: 100px 0px;
+	width: 100px;
+
+}*/
+.ourteam h2{
+
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+.teamsetting{
+	margin-top: 50px ! important;
+}
+
+
+
+/*/*RESPONSIVE----*/
+
+/*@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px)  and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+
+@media(min-width:460px )  and (max-width: 574px){
+
+}
+
+@media(max-width:479px ){
+
+	.heardrset h2{
+	font-size: 22px;
+}
+
+.heardrset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.Places{
+	height: 2700px;
+	
+
+}*/
