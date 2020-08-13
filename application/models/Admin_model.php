@@ -42,10 +42,10 @@ class Admin_model extends CI_Model
 	return $query->result();
 	}
 
-	function updaterecords($n,$e,$m,$o,$p,$q,$r,$id)
+	function updaterecords($n,$e,$em,$m,$o,$p,$q,$r,$id)
 	{
 
-			$query = $this->db->query("UPDATE `booking` SET `book_id`='$n',`reg_id`='$e',`user`='$m',`no_persons`='$o',`price`='$p',`location`='$q',`total_price`='$r' WHERE book_id = '$id'");
+			$query = $this->db->query("UPDATE `booking` SET `book_id`='$n',`reg_id`='$e',`email`='$em',`user`='$m',`no_persons`='$o',`price`='$p',`location`='$q',`total_price`='$r' WHERE book_id = '$id'");
 
 	}
 

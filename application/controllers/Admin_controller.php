@@ -49,13 +49,13 @@ public function dispdata()
 	public function deletedata()
 	{
 	$id=$this->input->get('id');
-	$this->Hello_Model->deleterecords($id);
+	$this->Admin_model->deleterecords($id);
 	redirect("Admin_controller/dispdata");
 	}
 	public function deletedata1()
 	{
 	$id=$this->input->get('id');
-	$this->Hello_Model->deleterecords1($id);
+	$this->Admin_model->deleterecords1($id);
 	redirect("Admin_controller/dispdata1");
 	}
 
@@ -70,13 +70,14 @@ public function dispdata()
 		{
 		$n=$this->input->post('book_id');
 		$e=$this->input->post('reg_id');
+		$em=$this->input->post('email');
 		$m=$this->input->post('user');
 		$o=$this->input->post('no_persons');
 		$p=$this->input->post('price');
 		$q=$this->input->post('location');
 		$r=$this->input->post('total_price');
 
-		$this->Admin_model->updaterecords($n,$e,$m,$o,$p,$q,$r,$id);
+		$this->Admin_model->updaterecords($n,$e,$em,$m,$o,$p,$q,$r,$id);
 		redirect("Admin_controller/dispdata");
 		}
 	}
@@ -97,7 +98,7 @@ public function dispdata()
 
 
 		$this->Admin_model->updaterecords1($a,$b,$c,$d,$id);
-		redirect("Hello/dispdata1");
+		redirect("Admin_controller/dispdata1");
 		}
 	}
 	public function dispdata2()

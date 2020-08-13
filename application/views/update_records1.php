@@ -18,7 +18,7 @@
       <input type="text" name="user" value="<?php echo $row->user; ?>"/></td>
   </tr>
   <tr>
-    <td>Enter Your USER NAME </td>
+    <td>Enter Your PASSWORD </td>
     <td><input type="text" name="password" value="<?php echo $row->password; ?>"/></td>
   </tr>
   <tr>

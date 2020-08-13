@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Display Records</title>
+<title>Booking Records</title>
 </head>
 <style type="text/css">
   .pic{
@@ -29,14 +29,16 @@
   <tr style="background:#CCC">
 		<tr>
 			<th>SL.</th>
+      <th>BOOKING ID</th>
 			<th>REGISTRATION ID</th>
+      <th>EMAIL</th>
 			<th>USER NAME</th>
 			<th>NUMBER OF PERSONS</th>
 			<th>PACKAGE PRICE</th>
 			<th>LOCATION</th>
 			<th>TOTAL PRICE</th>
 
-			<th>action</th>
+			<th colspan="2">ACTION</th>
   </tr>
 
 
@@ -48,15 +50,16 @@
   {
   echo "<tr>";
   echo "<td>".$i."</td>";
-
+    echo "<td>".$row->book_id."</td>";
 		echo "<td>".$row->reg_id."</td>";
+    echo "<td>".$row->email."</td>";
 		echo "<td>".$row->user."</td>";
 		echo "<td>".$row->no_persons."</td>";
 		echo "<td>".$row->price."</td>";
 		echo "<td>".$row->location."</td>";
 		echo "<td>".$row->total_price."</td>";
-  echo "<td><a href='deletedata?id=".$row->book_id."'>Delete</a></td>";
-  echo "<td><a href='updatedata?id=".$row->book_id."'>Update</a></td>";
+  echo "<td><a href='deletedata?id=".$row->book_id."'style='color: orange;'>Delete</a></td>";
+  echo "<td><a href='updatedata?id=".$row->book_id."'style='color: lightgreen;'>Update</a></td>";
   echo "</tr>";
   $i++;
   }
