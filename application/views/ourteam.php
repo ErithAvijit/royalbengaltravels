@@ -29,8 +29,8 @@
       </li>
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
-            <figure><img src="<?php echo base_url();?>images/home page/team/amit.jpg" class="img-responsive" alt=""></figure>
-            <h3><a href="#">AMIT CHAKRABORTY </a></h3>
+            <figure><!-- <img src="<?php echo base_url();?>images/home page/team/amit.jpg" class="img-responsive" alt=""> --></figure>
+            <h3><a href="#"></a></h3>
             <p>HE IS OUR PROJECT MEMBER</p>
             <ul class="follow-us clearfix">
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -41,8 +41,8 @@
       </li>
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
-            <figure><img src="<?php echo base_url();?>images/home page/team/gourav.jpg" class="img-responsive" alt=""></figure>
-            <h3><a href="http://www.webcoderskull.com/">GOURAV BATYABAL </a></h3>
+            <figure><!-- <img src="<?php echo base_url();?>images/home page/team/gourav.jpg" class="img-responsive" alt=""> --></figure>
+            <h3><a href="http://www.webcoderskull.com/"></a></h3>
             <p>HE IS OUR PROJECT MEMBER</p>
             <ul class="follow-us clearfix">
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -53,8 +53,8 @@
        </li>
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
-            <figure><img src="<?php echo base_url();?>images/home page/team/anik.jpg" class="img-responsive" alt=""></figure>
-            <h3><a href="http://www.webcoderskull.com/">ANIK KARMAKAR </a></h3>
+            <figure><!-- <img src="<?php echo base_url();?>images/home page/team/anik.jpg" class="img-responsive" alt=""> --></figure>
+            <h3><a href="http://www.webcoderskull.com/"> </a></h3>
             <p>HE IS OUR PROJECT MEMBER</p>
             <ul class="follow-us clearfix">
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
